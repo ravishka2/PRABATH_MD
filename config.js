@@ -6,26 +6,26 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'sam@sec.live'
-global.github = 'https://github.com/prabathLK/PRABATH-MD'
-global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94762280384'
-global.devs = '94762280384';
-global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
+global.email = 'ravishkasatsara@gmail.com'
+global.Youtube = 'https://youtube.com/@adzonemusic'
+global.location = 'kaluthara IN'
+global.gurl = 'https://instagram.com/ravishka_sathsara_' // add your username
+global.sudo = process.env.SUDO || '94773721711'
+global.devs = '94760559964';
+global.website = 'https://youtube.com/@adzonemusic' //wa.me/+94773721711
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/73a5cd6ace5384be642c1.jpg'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
+  botname: process.env.BOT_NAME || '𝐒𝐚𝐘𝐮 𝐌𝐃',
   autosticker: process.env.AUTO_STICKER || 'false',
   autovoice: process.env.AUTO_VOICE || 'false',
   botapikey: process.env.BOTCAHX_API || '',
-  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is prabath* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
+  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/8924798a5171d4d94cb4b.jpg,
+  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is Ravishka* 🎊',
+  ownername:process.env.OWNER_NAME || 'Ravishka Sathsara',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO.split(";")[1] || 'Name',
+  packname: process.env.PACK_INFO.split(";")[1] || '𝐒𝐚𝐘𝐮 𝐌𝐃',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
@@ -38,10 +38,10 @@ module.exports = {
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
   BRANCH: 'main',
-  ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
+  ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '𝐒𝐚𝐘𝐮 𝐌𝐃 මම ඉන්නො මොකද බන් වද දෙන්නෙ',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
-  LANG: process.env.THEME|| 'PRABATH-MD',
+  LANG: process.env.THEME|| '𝐒𝐚𝐘𝐮 𝐌𝐃',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
